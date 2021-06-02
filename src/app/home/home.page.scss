@@ -25,3 +25,23 @@
 #container a {
   text-decoration: none;
 }
+/*
+ion-content{
+    --ion-background-color:#3633ff;
+}
+*/
+ion-card{
+    --ion-background-color:#ffffff;
+    border-bottom-right-radius:  3em;
+    border-bottom-left-radius:  3em;
+}
+ion-content{
+    --background: #fff url('../../assets/plan.jpg') 0 0/100% 100% no-repeat;
+    --background-size: cover !important;
+}
+ion-icon {
+  color: #ff2700;
+}
+ion-icon{
+  align-items: center;
+}
